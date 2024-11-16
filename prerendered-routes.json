@@ -1,0 +1,8 @@
+{
+  "routes": [
+    "/bootstrap",
+    "/home",
+    "/publicering",
+    "/tailwind"
+  ]
+}
