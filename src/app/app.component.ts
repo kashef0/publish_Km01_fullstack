@@ -4,11 +4,12 @@ import { TalwindNavComponent } from "./components/navbars/talwind-nav/talwind-na
 import { FooterComponent } from "./components/footer/footer.component";
 import { BootstrapNavComponent } from "./components/navbars/bootstrap-nav/bootstrap-nav.component";
 import { CommonModule } from '@angular/common';
+import { HomeContentComponent } from "./components/home-content/home-content.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FooterComponent, CommonModule, BootstrapNavComponent, TalwindNavComponent],
+  imports: [RouterOutlet, FooterComponent, CommonModule, BootstrapNavComponent, TalwindNavComponent, HomeContentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
